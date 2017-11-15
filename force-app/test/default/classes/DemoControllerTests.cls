@@ -11,6 +11,8 @@ private class DemoControllerTests {
     	DemoController demo = new DemoController(new ApexPages.StandardController(contact));
     	System.assertEquals(contact.Id, ApexPages.currentPage().getParameters().get('id'));
     }
+    
+    
 
     @isTest static void testGetAppVersion() {
         DemoController demo = new DemoController();
