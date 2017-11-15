@@ -19,6 +19,7 @@ public with sharing class DemoController {
             ApexPages.currentPage().getParameters().put('id', theContact.Id);
         }
     }
+    
 
     /**
      * Get the version of the SFDX demo app
